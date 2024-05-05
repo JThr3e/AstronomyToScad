@@ -23,25 +23,27 @@ def get_star_info(name):
     plx = result_table['PLX_VALUE'][0]
     
     
-    # Get distance in light years
     if name == "61 Cygni":
         # data missing from simbad
         dist = 11.41
     else:
+        # Get distance in light years
         dist = (1./(plx/1000.))*3.26156
     
+    #Get radius and z distance using distance and declination
     r_dist = math.cos(math.radians(dec_deg))*dist
     z_dist = math.sin(math.radians(dec_deg))*dist
 
-    print(name)
-    print("RA (degrees):", ra_deg)
+    #print(name)
+    #print("RA (degrees):", ra_deg)
     #print("Dec (degrees):", dec_deg)
     #print("parallax (pc):", 1./(plx/1000.))
-    print("r_distance (ly):", r_dist)
-    print("z_distance (ly):", z_dist)
+    #print("r_distance (ly):", r_dist)
+    #print("z_distance (ly):", z_dist)
     #print("distance (ly):", dist)
-    print("+++++++++++++++++++++")
+    #print("+++++++++++++++++++++")
 
+    #Get the x y coordinates using right ascension and radius distance 
     x_dist = math.cos(math.radians(ra_deg))*r_dist
     y_dist = math.sin(math.radians(ra_deg))*r_dist
 
@@ -68,6 +70,7 @@ star_info = [("Sol", 0., 0., 0.)]
 with open("stars.txt", "r") as f:
     stars = f.read()
     for star in stars.splitlines():
+        # ignore stars with #
         if star[0] == "#":
             continue
         else:
@@ -76,8 +79,8 @@ with open("stars.txt", "r") as f:
 
 star_info.sort(key=lambda x: x[3])
 star_info = scale_info_for_model(star_info)
-for star in star_info:
-    print(star)
+#for star in star_info:
+#    print(star)
 
 scad = astro_model_constructor.star_points_to_model(star_info)
 print(scad)
