@@ -1,227 +1,227 @@
 difference() {
 	union() {
 		cylinder(h = 3, r = 70);
-		translate(v = [-19.852778181164695, 6.039208575811911, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Tau Ceti");
+		translate(v = [-20.852778181164695, 11.039208575811912, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Tau Ceti");
 			}
 		}
-		translate(v = [-16.852778181164695, 2.0392085758119114, 0]) {
-			cylinder(h = 22.911594088492606, r = 2.5000000000);
+		translate(v = [-16.852778181164695, 5.039208575811911, 0]) {
+			cylinder(h = 22.911594088492606, r = 3.5000000000);
 		}
-		translate(v = [-62.16343486393809, -19.79720792572746, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "40 Eridani");
+		translate(v = [-66.1634348639381, -16.79720792572746, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "40 Eridani");
 			}
 		}
 		translate(v = [-60.16343486393809, -22.79720792572746, 0]) {
-			cylinder(h = 29.647281034832595, r = 2.5000000000);
+			cylinder(h = 29.647281034832595, r = 3.5000000000);
 		}
-		translate(v = [19.75946908363555, 4.942292308726428, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Lacaille 9352");
+		translate(v = [17.75946908363555, 7.942292308726428, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Lacaille 9352");
 			}
 		}
 		translate(v = [21.75946908363555, 1.942292308726428, 0]) {
-			cylinder(h = 31.031862297966306, r = 2.5000000000);
+			cylinder(h = 31.031862297966306, r = 3.5000000000);
 		}
-		translate(v = [18.61591378272685, 25.161801774186586, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "EZ Aquarii");
+		translate(v = [16.61591378272685, 28.161801774186586, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "EZ Aquarii");
 			}
 		}
 		translate(v = [20.61591378272685, 22.161801774186586, 0]) {
-			cylinder(h = 33.42741738215409, r = 2.5000000000);
+			cylinder(h = 33.42741738215409, r = 3.5000000000);
 		}
-		translate(v = [34.292826618150606, -13.012620058182698, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Epsilon Indi");
+		translate(v = [32.292826618150606, -10.012620058182698, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Epsilon Indi");
 			}
 		}
 		translate(v = [36.292826618150606, -16.012620058182698, 0]) {
-			cylinder(h = 35.87447068668071, r = 2.5000000000);
+			cylinder(h = 35.87447068668071, r = 3.5000000000);
 		}
-		translate(v = [-12.74216172277643, 3.8475800880241264, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "UV Ceti");
+		translate(v = [-14.74216172277643, 6.847580088024126, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "UV Ceti");
 			}
 		}
 		translate(v = [-10.74216172277643, 0.8475800880241264, 0]) {
-			cylinder(h = 37.729939206718974, r = 2.5000000000);
+			cylinder(h = 37.729939206718974, r = 3.5000000000);
 		}
-		translate(v = [-35.766177315686456, -6.583286055860425, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Epsilon Eridani");
+		translate(v = [-44.766177315686456, -3.583286055860425, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Epsilon Eridani");
 			}
 		}
 		translate(v = [-33.766177315686456, -9.583286055860425, 0]) {
-			cylinder(h = 40.9474921000324, r = 2.5000000000);
+			cylinder(h = 40.9474921000324, r = 3.5000000000);
 		}
-		translate(v = [-26.742300319315817, 52.244005634739096, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Groombridge 34");
+		translate(v = [-28.742300319315817, 55.244005634739096, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Groombridge 34");
 			}
 		}
 		translate(v = [-24.742300319315817, 49.244005634739096, 0]) {
-			cylinder(h = 61.617050889498884, r = 2.5000000000);
+			cylinder(h = 61.617050889498884, r = 3.5000000000);
 		}
-		translate(v = [-18.851698640945038, 49.3225570069718, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Ross 248");
+		translate(v = [-20.851698640945038, 52.3225570069718, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Ross 248");
 			}
 		}
 		translate(v = [-16.851698640945038, 46.3225570069718, 0]) {
-			cylinder(h = 64.9857805921911, r = 2.5000000000);
+			cylinder(h = 64.9857805921911, r = 3.5000000000);
 		}
-		translate(v = [44.824682132207194, 12.362607624246944, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Ross 154");
+		translate(v = [42.824682132207194, 15.362607624246944, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Ross 154");
 			}
 		}
 		translate(v = [46.824682132207194, 9.362607624246944, 0]) {
-			cylinder(h = 71.33538415181324, r = 2.5000000000);
+			cylinder(h = 71.33538415181324, r = 3.5000000000);
 		}
-		translate(v = [-30.851625803842428, -28.189982144426782, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Sirius");
+		translate(v = [-32.851625803842424, -25.189982144426782, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Sirius");
 			}
 		}
 		translate(v = [-28.851625803842428, -31.189982144426782, 0]) {
-			cylinder(h = 73.35393819192889, r = 2.5000000000);
+			cylinder(h = 73.35393819192889, r = 3.5000000000);
 		}
-		translate(v = [5.5851378160, 59.2469780161, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "61 Cygni");
+		translate(v = [3.5851378160, 62.2469780161, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "61 Cygni");
 			}
 		}
 		translate(v = [7.5851378160, 56.2469780161, 0]) {
-			cylinder(h = 74.2167787208, r = 2.5000000000);
+			cylinder(h = 74.2167787208, r = 3.5000000000);
 		}
-		translate(v = [13.739033828219458, -12.337964009968461, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Alpha Centauri");
+		translate(v = [5.739033828219458, -9.337964009968461, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Alpha Centauri");
 			}
 		}
 		translate(v = [15.739033828219458, -15.337964009968461, 0]) {
-			cylinder(h = 79.73636396749662, r = 2.5000000000);
+			cylinder(h = 79.73636396749662, r = 3.5000000000);
 		}
-		translate(v = [-2.0000000000, 3.0000000000, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Sol");
+		translate(v = [-1.0000000000, 5.0000000000, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Sol");
 			}
 		}
 		translate(v = [0.0000000000, 0.0000000000, 0]) {
-			cylinder(h = 80.0000000000, r = 2.5000000000);
+			cylinder(h = 80.0000000000, r = 3.5000000000);
 		}
-		translate(v = [22.787833912227654, 17.89915805683122, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Barnard's Star");
+		translate(v = [24.787833912227654, 20.89915805683122, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Barnard's Star");
 			}
 		}
 		translate(v = [24.787833912227654, 14.899158056831217, 0]) {
-			cylinder(h = 87.24440303913433, r = 2.5000000000);
+			cylinder(h = 87.24440303913433, r = 3.5000000000);
 		}
-		translate(v = [-48.451477730774315, -27.981910107870586, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Procyon");
+		translate(v = [-50.451477730774315, -24.981910107870586, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Procyon");
 			}
 		}
 		translate(v = [-46.451477730774315, -30.981910107870586, 0]) {
-			cylinder(h = 92.91058445191119, r = 2.5000000000);
+			cylinder(h = 92.91058445191119, r = 3.5000000000);
 		}
-		translate(v = [-49.13855806356364, -11.42482988577854, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "DX Cancri");
+		translate(v = [-53.13855806356364, -8.42482988577854, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "DX Cancri");
 			}
 		}
 		translate(v = [-47.13855806356364, -14.42482988577854, 0]) {
-			cylinder(h = 111.30947290189258, r = 2.5000000000);
+			cylinder(h = 111.30947290189258, r = 3.5000000000);
 		}
-		translate(v = [-11.5800602904182, -16.68945672226323, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Wolf 359");
+		translate(v = [-13.5800602904182, -13.68945672226323, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Wolf 359");
 			}
 		}
 		translate(v = [-9.5800602904182, -19.68945672226323, 0]) {
-			cylinder(h = 112.60953220587736, r = 2.5000000000);
+			cylinder(h = 112.60953220587736, r = 3.5000000000);
 		}
-		translate(v = [-19.19507207666385, -6.059810931484126, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Lalande 21185");
+		translate(v = [-27.19507207666385, -8.459810931484126, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Lalande 21185");
 			}
 		}
 		translate(v = [-17.19507207666385, -1.540189068515874, 0]) {
-			cylinder(h = 117.76262215834656, r = 2.5000000000);
+			cylinder(h = 117.76262215834656, r = 3.5000000000);
 		}
-		translate(v = [-1.9284148552129357, -24.884427759492596, 0]) {
-			linear_extrude(height = 5) {
-				text(size = 1.5000000000, text = "Ross 128");
+		translate(v = [-3.9284148552129357, -21.884427759492596, 0]) {
+			linear_extrude(height = 4) {
+				text(size = 2.5000000000, text = "Ross 128");
 			}
 		}
 		translate(v = [0.07158514478706426, -27.884427759492596, 0]) {
-			cylinder(h = 127.45041333690591, r = 2.5000000000);
+			cylinder(h = 127.45041333690591, r = 3.5000000000);
 		}
 	}
 	union() {
-		translate(v = [-16.852778181164695, 2.0392085758119114, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+		translate(v = [-16.852778181164695, 5.039208575811911, -50]) {
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-60.16343486393809, -22.79720792572746, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [21.75946908363555, 1.942292308726428, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [20.61591378272685, 22.161801774186586, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [36.292826618150606, -16.012620058182698, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-10.74216172277643, 0.8475800880241264, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-33.766177315686456, -9.583286055860425, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-24.742300319315817, 49.244005634739096, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-16.851698640945038, 46.3225570069718, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [46.824682132207194, 9.362607624246944, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-28.851625803842428, -31.189982144426782, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [7.5851378160, 56.2469780161, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [15.739033828219458, -15.337964009968461, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [0.0000000000, 0.0000000000, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [24.787833912227654, 14.899158056831217, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-46.451477730774315, -30.981910107870586, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-47.13855806356364, -14.42482988577854, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-9.5800602904182, -19.68945672226323, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [-17.19507207666385, -1.540189068515874, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 		translate(v = [0.07158514478706426, -27.884427759492596, -50]) {
-			cylinder(h = 6000, r = 1.5000000000);
+			cylinder(h = 6000, r = 2.0000000000);
 		}
 	}
 }

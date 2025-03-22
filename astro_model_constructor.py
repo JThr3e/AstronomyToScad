@@ -8,8 +8,8 @@ def star_points_to_model(star_data):
     BASE_SIZE = 3
     BASE_RADIUS = 70
     MAX_HEIGHT = 6000
-    POLE_RADIUS = 2.5
-    HOLE_RADIUS = 1.5
+    POLE_RADIUS = 3.5
+    HOLE_RADIUS = 2.0
     positive_volumes = [cylinder(h=BASE_SIZE, r=BASE_RADIUS)]
     negative_volumes = []
     for star in star_data:
@@ -17,13 +17,11 @@ def star_points_to_model(star_data):
         x = star[1]
         y = star[2]
         z = star[3]
-        txt = translate([x-2,y+3,0])(
-            linear_extrude(5) (text(name, size=1.5))
+        if name =="Tau Ceti":
+            y+=3
+        txt = translate([x-4,y+6,0])(
+            linear_extrude(4) (text(name, size=2.5))
         )
-        if name == "Lalande 21185":
-            txt = translate([x-2,y-10,0])(
-                linear_extrude(5) (text(name, size=1.5))
-            )
         pos_vol = translate([x,y,0])(
             cylinder(h=z,r=POLE_RADIUS)
         )
